@@ -5,7 +5,7 @@ public class Bullet : MonoBehaviour
 {
     public static Bullet instance;
     [SerializeField] private GameObject bullet, player;
-    public int balas=5;
+    public int balas = 5;
 	private Vector2 origem;
 	public KeyCode disparo;
     private Rigidbody2D player_rb;
@@ -28,5 +28,5 @@ public class Bullet : MonoBehaviour
         }
 	}
 
-    public void Recarregar(){balas = 5;}
+    public void Recarregar(){ balas = 5; }
 }

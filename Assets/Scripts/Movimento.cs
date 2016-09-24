@@ -102,8 +102,12 @@ public class Movimento : MonoBehaviour
     {
         if (other.gameObject.tag == "Plataforma")
         {
-
             Bullet.instance.Recarregar();
+        }
+        if (other.gameObject.tag == "Gemas")
+        {
+            Gemas.instance.Pontuaçao();
+            Destroy(other.gameObject);
         }
     }
 }
