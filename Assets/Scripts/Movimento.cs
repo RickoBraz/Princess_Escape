@@ -15,6 +15,7 @@ public class Movimento : MonoBehaviour
     [SerializeField]
     private GameObject player;
     private Rigidbody2D player_rb;
+    public string scene;
 
     void Start()
     {
@@ -108,6 +109,14 @@ public class Movimento : MonoBehaviour
         {
             Gemas.instance.Pontuaçao();
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "EditorOnly") {
+            Application.LoadLevel(scene);
+
+        }
+        if(other.gameObject.tag == "Respawn") {
+            Application.LoadLevel("04 GameOver");
+
         }
     }
 }
