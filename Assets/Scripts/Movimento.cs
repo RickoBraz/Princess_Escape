@@ -105,18 +105,23 @@ public class Movimento : MonoBehaviour
         {
             Bullet.instance.Recarregar();
         }
+        if (other.gameObject.tag == "EditorOnly")
+        {
+            Application.LoadLevel(scene);
+
+        }
+        if (other.gameObject.tag == "Respawn")
+        {
+            Application.LoadLevel("04 GameOver");
+
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.gameObject.tag == "Gemas")
         {
             Gemas.instance.Pontuaçao();
             Destroy(other.gameObject);
-        }
-        if (other.gameObject.tag == "EditorOnly") {
-            Application.LoadLevel(scene);
-
-        }
-        if(other.gameObject.tag == "Respawn") {
-            Application.LoadLevel("04 GameOver");
-
         }
     }
 }
