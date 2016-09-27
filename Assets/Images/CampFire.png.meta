@@ -51,11 +51,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 20
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: CampFire_0
+    - serializedVersion: 2
+      name: CampFire_0
       rect:
         serializedVersion: 2
         x: 7
@@ -65,21 +68,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19.5, y: -27}
-        - {x: 7.5, y: -27}
-        - {x: 16.5, y: -23}
-        - {x: 16.5, y: 10}
-        - {x: 12.5, y: 28}
-        - {x: 9.5, y: 32}
-        - {x: -7.5, y: 32}
-        - {x: -19.5, y: 24}
-      - - {x: -19.5, y: -10}
-        - {x: -16.5, y: -9}
-        - {x: -16.5, y: -6}
-        - {x: -19.5, y: -5}
-        - {x: -21.5, y: -7}
-    - name: CampFire_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CampFire_1
       rect:
         serializedVersion: 2
         x: 69
@@ -89,33 +81,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7.5, y: 24}
-        - {x: 8.5, y: 17}
-        - {x: 6.5, y: 14}
-        - {x: 1.5, y: 19}
-        - {x: 6.5, y: 18}
-        - {x: 8.5, y: 20}
-        - {x: 6.5, y: 28}
-        - {x: 3.5, y: 32}
-        - {x: -4.5, y: 32}
-        - {x: -10.5, y: 21}
-        - {x: -10.5, y: 17}
-        - {x: -6.5, y: 12}
-        - {x: -9.5, y: 12}
-        - {x: -12.5, y: 11}
-        - {x: -17.5, y: 8}
-        - {x: -17.5, y: -27}
-        - {x: 16.5, y: -27}
-        - {x: 18.5, y: -25}
-        - {x: 18.5, y: 11}
-        - {x: 13.5, y: 31}
-      - - {x: -17.5, y: -10}
-        - {x: -14.5, y: -9}
-        - {x: -14.5, y: -6}
-        - {x: -17.5, y: -5}
-        - {x: -19.5, y: -7}
-    - name: CampFire_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CampFire_2
       rect:
         serializedVersion: 2
         x: 132
@@ -125,21 +94,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.5, y: 20}
-        - {x: 14.5, y: 26}
-        - {x: 11.5, y: 31}
-        - {x: 9.5, y: 31}
-        - {x: 5.5, y: 29}
-        - {x: 2.5, y: 32}
-        - {x: -11.5, y: 32}
-        - {x: -18.5, y: 17}
-        - {x: -18.5, y: -13}
-        - {x: -16.5, y: -27}
-        - {x: 21.5, y: -27}
-        - {x: 21.5, y: 19}
-        - {x: 17.5, y: 20}
-    - name: CampFire_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CampFire_3
       rect:
         serializedVersion: 2
         x: 198
@@ -149,18 +107,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: 32}
-        - {x: -18.5, y: -27}
-        - {x: 16.5, y: -27}
-        - {x: 20.5, y: -10}
-        - {x: 20.5, y: 32}
-      - - {x: -18.5, y: -10}
-        - {x: -15.5, y: -9}
-        - {x: -15.5, y: -6}
-        - {x: -18.5, y: -5}
-        - {x: -20.5, y: -7}
-    - name: CampFire_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CampFire_4
       rect:
         serializedVersion: 2
         x: 261
@@ -170,35 +120,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3.5, y: 30}
-        - {x: -17.5, y: 23}
-        - {x: -17.5, y: -27}
-        - {x: 17.5, y: -27}
-        - {x: 18.5, y: -21}
-        - {x: 18.5, y: 24}
-        - {x: 15.5, y: 30}
-      - - {x: -17.5, y: -10}
-        - {x: -14.5, y: -9}
-        - {x: -14.5, y: -6}
-        - {x: -17.5, y: -5}
-        - {x: -19.5, y: -7}
-      - - {x: 2.5, y: 32}
-        - {x: -4.5, y: 32}
-        - {x: -4.5, y: 18}
-        - {x: -2.5, y: 17}
-        - {x: -0.5, y: 17}
-        - {x: 2.5, y: 21}
-        - {x: 4.5, y: 28}
-        - {x: 4.5, y: 30}
-      - - {x: -11.5, y: 32}
-        - {x: -13.5, y: 29}
-        - {x: -13.5, y: 23}
-        - {x: -9.5, y: 20}
-        - {x: -5.5, y: 20}
-        - {x: -4.5, y: 22}
-        - {x: -4.5, y: 29}
-        - {x: -5.5, y: 32}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
