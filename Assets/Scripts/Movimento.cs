@@ -105,7 +105,7 @@ public class Movimento : MonoBehaviour
         {
             Bullet.instance.Recarregar();
         }
-        if (other.gameObject.tag == "EditorOnly")
+        if (other.gameObject.tag == "end")
         {
             Application.LoadLevel(scene);
 
