@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Movimento : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class Movimento : MonoBehaviour
     [SerializeField]
     private float velright, velleft, veldown = -15f;
     private float o_velright, o_velleft;
+    [SerializeField]
+    private int life = 1;
+    public Text Tlife;
     [SerializeField]
     private int count, time = 10;
     [SerializeField]
@@ -112,8 +116,12 @@ public class Movimento : MonoBehaviour
         }
         if (other.gameObject.tag == "Respawn")
         {
-            Application.LoadLevel("04 GameOver");
-
+            if (life < 1) Application.LoadLevel("04 GameOver");
+            else
+            {
+                life -= 1;
+                Tlife.text = (Mathf.RoundToInt(life)).ToString();
+            }
         }
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -123,5 +131,10 @@ public class Movimento : MonoBehaviour
             Gemas.instance.Pontuaçao();
             Destroy(other.gameObject);
         }
+    }
+    public void Mlife()
+    {
+        life += 1;
+        Tlife.text = (Mathf.RoundToInt(life)).ToString();
     }
 }

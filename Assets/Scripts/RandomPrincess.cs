@@ -17,6 +17,7 @@ public class RandomPrincess : MonoBehaviour {
             Start();
             animator.Play("Player_default", -1, float.NegativeInfinity);
             Destroy(other.gameObject);
+            Movimento.instance.Mlife();
         }
     }
 }
