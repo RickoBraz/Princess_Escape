@@ -135,6 +135,6 @@ public class Movimento : MonoBehaviour
     public void Mlife()
     {
         life += 1;
-        Tlife.text = (Mathf.RoundToInt(life)).ToString();
+        Tlife.text = (Mathf.RoundToInt(life)).ToString() + " Princess";
     }
 }

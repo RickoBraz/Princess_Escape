@@ -19,7 +19,7 @@ public class Gemas : MonoBehaviour {
     public void Pontuaçao()
     {
         NGemas += 5;
-        texto.text = (Mathf.RoundToInt(NGemas)).ToString();
+        texto.text = (Mathf.RoundToInt(NGemas)).ToString() + " gold";
         //Quando for fazer o HUD referenciaremos essa variavel
         //Assim como usaremos esse numero para fazer as minimetas
     }

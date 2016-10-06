@@ -1,14 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class RandomPrincess : MonoBehaviour {
 
     public Animator animator;
+    public Image sprite;
+    private int princess;
+    public Sprite[] bustos;
 
 	void Start ()
     {
-
-        animator.SetInteger("Player",Random.Range(0, 5));
+        princess = Random.Range(0, 5);
+        sprite.sprite = bustos[princess];
+        animator.SetInteger("Player", princess);
 	}
     void OnCollisionEnter2D(Collision2D other)
     {
