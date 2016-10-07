@@ -70,12 +70,13 @@
     <Compile Include="Assets\Scripts\FairyIA.cs" />
     <Compile Include="Assets\Scripts\Gemas.cs" />
     <Compile Include="Assets\Scripts\GoScene.cs" />
+    <Compile Include="Assets\Scripts\MenuKeys.cs" />
     <Compile Include="Assets\Scripts\Movimento.cs" />
     <Compile Include="Assets\Scripts\Plataforma.cs" />
     <Compile Include="Assets\Scripts\RandomPrincess.cs" />
     <Compile Include="Assets\Scripts\RandomSprite.cs" />
     <Compile Include="Assets\Scripts\Spikes.cs" />
-    <Compile Include="Assets\Scripts\TweenThisBitch.cs" />
+    <Compile Include="Assets\Scripts\Tween.cs" />
     <Compile Include="Assets\Scripts\fade3.cs" />
     <Compile Include="Assets\Scripts\girarObjeto.cs" />
     <Compile Include="Assets\Scripts\vinhetas.cs" />
