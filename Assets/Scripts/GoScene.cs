@@ -9,6 +9,11 @@ public class GoScene : MonoBehaviour {
 
     }
 
+    public void Restart()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
+
     public void Fechar() {
         Application.Quit();
     }

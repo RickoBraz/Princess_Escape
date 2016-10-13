@@ -15,7 +15,7 @@ public class RandomPrincess : MonoBehaviour {
         sprite.sprite = bustos[princess];
         animator.SetInteger("Player", princess);
 	}
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "PowerUp")
         {

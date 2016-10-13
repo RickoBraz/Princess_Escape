@@ -12,7 +12,7 @@ public class Movimento : MonoBehaviour
     private float velright, velleft, veldown = -15f;
     private float o_velright, o_velleft;
     [SerializeField]
-    private int life = 1;
+    private int life = 1, contaPisca;
     public Text Tlife;
     [SerializeField]
     private int count, time = 10;
@@ -103,6 +103,7 @@ public class Movimento : MonoBehaviour
         time = 10;
         count = 3;
     }
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Plataforma")
@@ -116,7 +117,7 @@ public class Movimento : MonoBehaviour
         }
         if (other.gameObject.tag == "Respawn")
         {
-            if (life < 1) Application.LoadLevel("04 GameOver");
+            if (life < 2) Application.LoadLevel("04 GameOver");
             else
             {
                 life -= 1;
