@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\GoScene.cs" />
     <Compile Include="Assets\Scripts\MenuKeys.cs" />
     <Compile Include="Assets\Scripts\Movimento.cs" />
+    <Compile Include="Assets\Scripts\ParticlesDestroyer.cs" />
     <Compile Include="Assets\Scripts\Plataforma.cs" />
     <Compile Include="Assets\Scripts\RandomPrincess.cs" />
     <Compile Include="Assets\Scripts\RandomSprite.cs" />

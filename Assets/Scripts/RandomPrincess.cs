@@ -9,7 +9,7 @@ public class RandomPrincess : MonoBehaviour {
     private int princess;
     public Sprite[] bustos;
 
-	void Start ()
+	public void Start ()
     {
         princess = Random.Range(0, 5);
         sprite.sprite = bustos[princess];
@@ -25,4 +25,5 @@ public class RandomPrincess : MonoBehaviour {
             Movimento.instance.Mlife();
         }
     }
+ 
 }

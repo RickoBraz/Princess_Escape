@@ -95,7 +95,8 @@ public class Movimento : MonoBehaviour
         }
         else
         {
-            player_rb.velocity = new Vector2(0f, veldown = -15);
+  
+        player_rb.velocity = new Vector2(0f, veldown = -15);
         }
     }
     public void RecuoBala()
@@ -120,6 +121,7 @@ public class Movimento : MonoBehaviour
             if (life < 2) Application.LoadLevel("04 GameOver");
             else
             {
+                GetComponent<RandomPrincess>().Start();
                 life -= 1;
                 Tlife.text = (Mathf.RoundToInt(life)).ToString();
             }
