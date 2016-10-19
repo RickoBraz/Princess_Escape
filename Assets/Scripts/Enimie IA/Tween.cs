@@ -50,4 +50,11 @@ public class Tween : MonoBehaviour
             return 1;
         }
     }
-}
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Gema")
+        {
+            Physics2D.IgnoreCollision(this.gameObject.GetComponent<Collider2D>(), other.gameObject.GetComponent<Collider2D>());
+        }
+    }
+    }

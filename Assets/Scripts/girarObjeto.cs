@@ -4,8 +4,20 @@ using System.Collections;
 public class girarObjeto : MonoBehaviour
     {
     public float velocidade;
-    void Update ()
+    public bool girar = false;
+
+    void FixedUpdate ()
     {
-        transform.Rotate(new Vector3(0f, 0f, velocidade) * Time.deltaTime);
+        if (girar == true) transform.Rotate(new Vector3(0f, 0f, velocidade) * Time.deltaTime);
+        if (girar == false) transform.Rotate(new Vector3(0f, 0f, 0f));
+
+    }
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Plataforma") girar = false;
+    }
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Plataforma") girar = true;
     }
 }

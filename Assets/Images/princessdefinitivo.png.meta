@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: edd362b45d8f42d46bd56bbc6c82b0a1
+timeCreated: 1476856036
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: princessdefinitivo_0
+    21300002: princessdefinitivo_1
+    21300004: princessdefinitivo_2
+    21300006: princessdefinitivo_3
+    21300008: princessdefinitivo_4
+    21300010: princessdefinitivo_5
+    21300012: princessdefinitivo_6
+    21300014: princessdefinitivo_15
+    21300016: princessdefinitivo_16
+    21300018: princessdefinitivo_17
+    21300020: princessdefinitivo_18
+    21300022: princessdefinitivo_19
+    21300024: princessdefinitivo_20
+    21300026: princessdefinitivo_21
+    21300028: princessdefinitivo_22
+    21300030: princessdefinitivo_23
+    21300032: princessdefinitivo_24
+    21300034: princessdefinitivo_25
+    21300036: princessdefinitivo_26
+    21300038: princessdefinitivo_27
+    21300040: princessdefinitivo_28
+    21300042: princessdefinitivo_29
+    21300044: princessdefinitivo_30
+    21300046: princessdefinitivo_31
+    21300048: princessdefinitivo_32
+    21300050: princessdefinitivo_33
+    21300052: princessdefinitivo_34
+    21300054: princessdefinitivo_35
+    21300056: princessdefinitivo_36
+    21300058: princessdefinitivo_37
+    21300060: princessdefinitivo_38
+    21300062: princessdefinitivo_39
+    21300064: princessdefinitivo_40
+    21300066: princessdefinitivo_41
+    21300068: princessdefinitivo_42
+    21300070: princessdefinitivo_43
+    21300072: princessdefinitivo_44
+    21300074: princessdefinitivo_45
+    21300076: princessdefinitivo_46
+    21300078: princessdefinitivo_47
+    21300080: princessdefinitivo_48
+    21300082: princessdefinitivo_49
+    21300084: princessdefinitivo_50
+    21300086: princessdefinitivo_51
+    21300088: princessdefinitivo_52
+    21300090: princessdefinitivo_53
+    21300092: princessdefinitivo_7
+    21300094: princessdefinitivo_8
+    21300096: princessdefinitivo_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: princessdefinitivo_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 405
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 405
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 405
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 405
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 405
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 405
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 381
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 321
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 321
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 321
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 321
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 321
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 321
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 297
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 297
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_23
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 297
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_24
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 297
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 252
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 252
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 252
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 252
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 252
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_30
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 252
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 183
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_32
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 183
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_33
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 183
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 183
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_35
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 183
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_36
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 204
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 204
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_38
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 204
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_39
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 204
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_40
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 204
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_41
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_42
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_44
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_45
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_46
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 126
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 120
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_48
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 120
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 15
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_52
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 15
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_53
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 15
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 381
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_8
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 381
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: princessdefinitivo_9
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 382
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
