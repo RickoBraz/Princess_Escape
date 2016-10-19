@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Prototypes/Prototype castle.unity
+- path: Assets/Scenes/3 LEVELS/LEVEL 03.unity
   isLoaded: 1
   isActive: 1

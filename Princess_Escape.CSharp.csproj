@@ -66,23 +66,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Scripts\BulletCollider.cs" />
-    <Compile Include="Assets\Scripts\Enimie IA\Spikes.cs" />
-    <Compile Include="Assets\Scripts\Enimie IA\Tween.cs" />
-    <Compile Include="Assets\Scripts\Enimie IA\mirrorSprite.cs" />
-    <Compile Include="Assets\Scripts\FairyIA.cs" />
-    <Compile Include="Assets\Scripts\Gemas.cs" />
-    <Compile Include="Assets\Scripts\GoScene.cs" />
-    <Compile Include="Assets\Scripts\MenuKeys.cs" />
-    <Compile Include="Assets\Scripts\Movimento.cs" />
-    <Compile Include="Assets\Scripts\ParticlesDestroyer.cs" />
-    <Compile Include="Assets\Scripts\Plataforma.cs" />
-    <Compile Include="Assets\Scripts\RandomPrincess.cs" />
-    <Compile Include="Assets\Scripts\RandomSprite.cs" />
-    <Compile Include="Assets\Scripts\fade3.cs" />
-    <Compile Include="Assets\Scripts\girarObjeto.cs" />
-    <Compile Include="Assets\Scripts\vinhetas.cs" />
+    <Compile Include="Assets\Scripts\COLLIDER\BulletCollider.cs" />
+    <Compile Include="Assets\Scripts\COLLIDER\Gemas.cs" />
+    <Compile Include="Assets\Scripts\COLLIDER\Plataforma.cs" />
+    <Compile Include="Assets\Scripts\COLLIDER\Spikes.cs" />
+    <Compile Include="Assets\Scripts\MISC\GoScene.cs" />
+    <Compile Include="Assets\Scripts\MISC\MenuKeys.cs" />
+    <Compile Include="Assets\Scripts\MISC\ParticlesDestroyer.cs" />
+    <Compile Include="Assets\Scripts\MISC\fade3.cs" />
+    <Compile Include="Assets\Scripts\MISC\vinhetas.cs" />
+    <Compile Include="Assets\Scripts\MOVIMENTAÇAO\Bullet.cs" />
+    <Compile Include="Assets\Scripts\MOVIMENTAÇAO\FairyIA.cs" />
+    <Compile Include="Assets\Scripts\MOVIMENTAÇAO\Movimento.cs" />
+    <Compile Include="Assets\Scripts\MOVIMENTAÇAO\Tween.cs" />
+    <Compile Include="Assets\Scripts\MOVIMENTAÇAO\girarObjeto.cs" />
+    <Compile Include="Assets\Scripts\MOVIMENTAÇAO\mirrorSprite.cs" />
+    <Compile Include="Assets\Scripts\POWER UPS\RandomPrincess.cs" />
+    <Compile Include="Assets\Scripts\POWER UPS\RandomSprite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
