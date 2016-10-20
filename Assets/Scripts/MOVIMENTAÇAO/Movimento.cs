@@ -6,24 +6,18 @@ public class Movimento : MonoBehaviour
 {
     public static Movimento instance;
 
-    [SerializeField]
-    private KeyCode right, left;
-    [SerializeField]
-    private float velright, velleft, veldown = -15f;
+    [SerializeField] private KeyCode right, left;
+    [SerializeField] private float velright, velleft, veldown = -15f;
     private float o_velright, o_velleft;
-    [SerializeField]
-    private int life = 1, contaPisca;
+    [SerializeField] private int life = 1, contaPisca;
     public Text Tlife;
-    [SerializeField]
-    private int count, time = 10;
-    [SerializeField]
-    private GameObject player;
+    [SerializeField] private int count, time = 10;
+    [SerializeField] private GameObject player;
     private Rigidbody2D player_rb;
     public string scene;
 
     void Start()
     {
-
         if (instance == null)
         {
             instance = this;
@@ -95,7 +89,7 @@ public class Movimento : MonoBehaviour
         }
         else
         {
-  
+
         player_rb.velocity = new Vector2(0f, veldown = -15);
         }
     }
@@ -118,7 +112,7 @@ public class Movimento : MonoBehaviour
         }
         if (other.gameObject.tag == "Respawn")
         {
-            if (life < 2) Application.LoadLevel("04 GameOver");
+            if (life < 2) Application.LoadLevel("03 DEATH");
             else
             {
                 GetComponent<RandomPrincess>().Start();
