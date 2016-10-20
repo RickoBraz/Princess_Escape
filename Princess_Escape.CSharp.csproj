@@ -70,10 +70,12 @@
     <Compile Include="Assets\Scripts\COLLIDER\Gemas.cs" />
     <Compile Include="Assets\Scripts\COLLIDER\Plataforma.cs" />
     <Compile Include="Assets\Scripts\COLLIDER\Spikes.cs" />
+    <Compile Include="Assets\Scripts\COLLIDER\collPlayer.cs" />
     <Compile Include="Assets\Scripts\MISC\GoScene.cs" />
     <Compile Include="Assets\Scripts\MISC\MenuKeys.cs" />
     <Compile Include="Assets\Scripts\MISC\ParticlesDestroyer.cs" />
     <Compile Include="Assets\Scripts\MISC\fade3.cs" />
+    <Compile Include="Assets\Scripts\MISC\gameOver.cs" />
     <Compile Include="Assets\Scripts\MISC\vinhetas.cs" />
     <Compile Include="Assets\Scripts\MOVIMENTAÇAO\Bullet.cs" />
     <Compile Include="Assets\Scripts\MOVIMENTAÇAO\FairyIA.cs" />

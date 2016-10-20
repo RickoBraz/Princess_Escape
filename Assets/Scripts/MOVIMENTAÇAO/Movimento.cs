@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
 public class Movimento : MonoBehaviour
 {
@@ -9,8 +8,6 @@ public class Movimento : MonoBehaviour
     [SerializeField] private KeyCode right, left;
     [SerializeField] private float velright, velleft, veldown = -15f;
     private float o_velright, o_velleft;
-    [SerializeField] private int life = 1, contaPisca;
-    public Text Tlife;
     [SerializeField] private int count, time = 10;
     [SerializeField] private GameObject player;
     private Rigidbody2D player_rb;
@@ -99,39 +96,6 @@ public class Movimento : MonoBehaviour
         count = 3;
     }
 
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Plataforma")
-        {
-            Bullet.instance.Recarregar();
-        }
-        if (other.gameObject.tag == "end")
-        {
-            Application.LoadLevel(scene);
+    
 
-        }
-        if (other.gameObject.tag == "Respawn")
-        {
-            if (life < 2) Application.LoadLevel("03 DEATH");
-            else
-            {
-                GetComponent<RandomPrincess>().Start();
-                life -= 1;
-                Tlife.text = (Mathf.RoundToInt(life)).ToString();
-            }
-        }
-    }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Gemas")
-        {
-            Gemas.instance.Pontuaçao();
-            Destroy(other.gameObject);
-        }
-    }
-    public void Mlife()
-    {
-        life += 1;
-        Tlife.text = (Mathf.RoundToInt(life)).ToString() + " Princess";
-    }
 }

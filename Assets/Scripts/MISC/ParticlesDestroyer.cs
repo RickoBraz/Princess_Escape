@@ -3,6 +3,17 @@ using System.Collections;
 
 public class ParticlesDestroyer : MonoBehaviour {
 
+
+    void Start()
+    {
+        Invoke("destroyBullet", 1f);
+    }
+
+    void destroyBullet()
+    {
+        Destroy(this.gameObject);
+    }
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Bullet")

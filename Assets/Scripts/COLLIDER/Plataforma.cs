@@ -19,11 +19,11 @@ public class Plataforma : MonoBehaviour{
         if (other.gameObject.tag == "Bullet" && tipo == TPlataforma.Quebravel) {
 
             Destroy(this.gameObject);
+            Gemas.instance.Pontuaçao();
 
             // gerar particula
             Instantiate(broke, (gameObject.transform.position), Quaternion.identity);
             Destroy(other.gameObject);
-
         }
 
         if (other.gameObject.tag == "Bullet" && tipo == TPlataforma.NQuebravel){ Destroy(other.gameObject); }
