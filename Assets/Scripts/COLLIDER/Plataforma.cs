@@ -12,7 +12,7 @@ public class Plataforma : MonoBehaviour{
 
     void Start() {
       // função de desenvolvimento
-        if (tipo == TPlataforma.Quebravel) GetComponent<SpriteRenderer>().color = new Color (0.5f,0f,0.2f,1f);
+       // if (tipo == TPlataforma.Quebravel) GetComponent<SpriteRenderer>().color = new Color (0f,0f,0f,1f);
     }
 
     void OnCollisionEnter2D(Collision2D other) {

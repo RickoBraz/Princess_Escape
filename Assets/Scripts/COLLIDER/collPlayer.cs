@@ -14,6 +14,9 @@ public class collPlayer : MonoBehaviour
     [Header("Proxima fase")]
     public string scene;
 
+    [Header("local de particulas")]
+    public GameObject particulas;
+
     void Start() {
         if (instance == null) instance = this;
     }
@@ -30,6 +33,8 @@ public class collPlayer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Gemas") {
+            Instantiate(particulas, (gameObject.transform.position), Quaternion.identity);
+
             Gemas.instance.Pontuaçao();
             Destroy(other.gameObject);
         }

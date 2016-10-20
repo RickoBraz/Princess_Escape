@@ -12,6 +12,7 @@ public class Gemas : MonoBehaviour {
     [Header("local de exibição")]
     public Text texto;
 
+
     public void SaveScore() {
         PlayerPrefs.SetInt("highscore", NGemas);
     }
@@ -26,4 +27,6 @@ public class Gemas : MonoBehaviour {
         //Quando for fazer o HUD referenciaremos essa variavel
         texto.text = (Mathf.RoundToInt(NGemas)).ToString() + " gold";
     }
+
+ 
 }
