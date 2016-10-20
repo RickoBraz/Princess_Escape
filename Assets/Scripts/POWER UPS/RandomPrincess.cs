@@ -22,8 +22,9 @@ public class RandomPrincess : MonoBehaviour {
     {
         if (other.gameObject.tag == "PowerUp")
         {
-            Start();
             animator.Play("Player_default", -1, float.NegativeInfinity);
+            Start();
+
             Destroy(other.gameObject);
             collPlayer.instance.Mlife();
         }

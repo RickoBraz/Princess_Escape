@@ -41,7 +41,7 @@ public class collPlayer : MonoBehaviour
     }
 
     public void afectLife() {
-        if (life < 2) {
+        if (life < 1) {
             PlayerPrefs.SetInt("highscore", 0);
             gameover.SetActive(true);
             Time.timeScale = 0f;

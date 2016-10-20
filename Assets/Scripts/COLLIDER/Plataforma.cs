@@ -10,6 +10,7 @@ public class Plataforma : MonoBehaviour{
   [Header("Particula a ser produzida")]
     public GameObject broke;
 
+
     void Start() {
       // função de desenvolvimento
        // if (tipo == TPlataforma.Quebravel) GetComponent<SpriteRenderer>().color = new Color (0f,0f,0f,1f);
