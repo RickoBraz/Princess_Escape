@@ -5,24 +5,31 @@ using UnityEngine.UI;
 public class RandomPrincess : MonoBehaviour {
 
     public Animator animator;
-    private int princess;
+    [SerializeField]private int princess = 0;
+    private int lastprincess = -1;
+    public GameObject balaosfx;
 
-	public void Start ()
+    public void Start ()
     {
-        princess = Random.Range(0, 5);
-        animator.SetInteger("Number", princess);
-        
+        princess = Random.Range(0, 6);
+        if (lastprincess == princess) {
+            Start();
+        }
+        if (lastprincess != princess) {
+            animator.SetInteger("number", princess);
+            lastprincess = princess;
+        }
+
     }
 
     void Update() {
-        if (Input.GetAxis("Horizontal") < 0)
-        {
+        if (Input.GetAxis("Horizontal") < 0){
             transform.localRotation = Quaternion.Euler(0, 180, 0);
         }
-        if (Input.GetAxis("Horizontal") > 0)
-        {
+        if (Input.GetAxis("Horizontal") > 0){
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
+
     }
 
 
@@ -30,7 +37,8 @@ public class RandomPrincess : MonoBehaviour {
     {
         if (other.gameObject.tag == "PowerUp")
         {
-            animator.Play("Player_default", -1, float.NegativeInfinity);
+            Instantiate(balaosfx, (gameObject.transform.position), Quaternion.identity);
+            animator.Play("New State", -1, float.NegativeInfinity);
             Start();
 
             Destroy(other.gameObject);

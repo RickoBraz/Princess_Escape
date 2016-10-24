@@ -17,6 +17,7 @@ public class collPlayer : MonoBehaviour
     [Header("local de particulas")]
     public GameObject particulas;
 
+
     void Start() {
         if (instance == null) instance = this;
     }
