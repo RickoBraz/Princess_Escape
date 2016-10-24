@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\MISC\GoScene.cs" />
     <Compile Include="Assets\Scripts\MISC\MenuKeys.cs" />
     <Compile Include="Assets\Scripts\MISC\ParticlesDestroyer.cs" />
+    <Compile Include="Assets\Scripts\MISC\camShakeSimple.cs" />
     <Compile Include="Assets\Scripts\MISC\fade3.cs" />
     <Compile Include="Assets\Scripts\MISC\gameOver.cs" />
     <Compile Include="Assets\Scripts\MISC\vinhetas.cs" />

@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 26e6b5ddab37ee24ea0b6a0aba47652f
+timeCreated: 1477288032
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: new-princess-scape-definitivo_0
+    21300002: new-princess-scape-definitivo_1
+    21300004: new-princess-scape-definitivo_2
+    21300006: new-princess-scape-definitivo_3
+    21300008: new-princess-scape-definitivo_4
+    21300010: new-princess-scape-definitivo_5
+    21300012: new-princess-scape-definitivo_15
+    21300014: new-princess-scape-definitivo_16
+    21300016: new-princess-scape-definitivo_17
+    21300018: new-princess-scape-definitivo_18
+    21300020: new-princess-scape-definitivo_19
+    21300022: new-princess-scape-definitivo_20
+    21300024: new-princess-scape-definitivo_25
+    21300026: new-princess-scape-definitivo_26
+    21300028: new-princess-scape-definitivo_27
+    21300030: new-princess-scape-definitivo_28
+    21300032: new-princess-scape-definitivo_29
+    21300034: new-princess-scape-definitivo_30
+    21300036: new-princess-scape-definitivo_31
+    21300038: new-princess-scape-definitivo_32
+    21300040: new-princess-scape-definitivo_33
+    21300042: new-princess-scape-definitivo_34
+    21300044: new-princess-scape-definitivo_35
+    21300046: new-princess-scape-definitivo_36
+    21300048: new-princess-scape-definitivo_42
+    21300050: new-princess-scape-definitivo_43
+    21300052: new-princess-scape-definitivo_44
+    21300054: new-princess-scape-definitivo_45
+    21300056: new-princess-scape-definitivo_46
+    21300058: new-princess-scape-definitivo_50
+    21300060: new-princess-scape-definitivo_51
+    21300062: new-princess-scape-definitivo_52
+    21300064: new-princess-scape-definitivo_53
+    21300066: new-princess-scape-definitivo_54
+    21300068: new-princess-scape-definitivo_55
+    21300070: new-princess-scape-definitivo_56
+    21300072: new-princess-scape-definitivo_57
+    21300074: new-princess-scape-definitivo_58
+    21300076: new-princess-scape-definitivo_59
+    21300078: new-princess-scape-definitivo_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 492
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 492
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 492
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 492
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 492
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 492
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 408
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 408
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 408
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 408
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 408
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 408
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 324
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 324
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_28
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 324
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 324
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 324
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 252
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 252
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 252
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_34
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 252
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_35
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 252
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 252
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_42
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 183
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 183
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 183
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_45
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 183
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_46
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 183
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_50
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_52
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_53
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 120
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_55
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_56
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_57
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 15
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_58
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 15
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_59
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 15
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: new-princess-scape-definitivo_60
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 15
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

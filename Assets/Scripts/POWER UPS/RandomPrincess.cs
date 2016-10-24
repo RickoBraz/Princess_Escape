@@ -5,19 +5,27 @@ using UnityEngine.UI;
 public class RandomPrincess : MonoBehaviour {
 
     public Animator animator;
-    public Image sprite;
     private int princess;
-    public Sprite[] bustos;
 
 	public void Start ()
     {
         princess = Random.Range(0, 5);
-        sprite.sprite = bustos[princess];
-        animator.SetInteger("Player", princess);
-
+        animator.SetInteger("Number", princess);
+        
     }
 
-   
+    void Update() {
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+        }
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
+    }
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "PowerUp")
