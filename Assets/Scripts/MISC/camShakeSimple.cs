@@ -9,30 +9,34 @@ public class camShakeSimple : MonoBehaviour {
 
     public Camera mainCamera;
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionEnter2D(Collision2D other)
     {
-
-        shakeAmt = coll.relativeVelocity.magnitude * .0025f;
-        InvokeRepeating("CameraShake", 0, .01f);
-        Invoke("StopShaking", 0.3f);
-
+        if (other.gameObject.tag == "Respawn") {
+            shakeAmt = other.relativeVelocity.magnitude * .0025f;
+            StartShaksing();
+        }
     }
 
     void CameraShake()
     {
         if (shakeAmt > 0)
         {
-            float quakeAmt = Random.value * shakeAmt * 2 - shakeAmt;
+            float quakeAmt = Random.Range(1,5) * shakeAmt * 2 - shakeAmt;
             Vector3 pp = mainCamera.transform.position;
             pp.y += quakeAmt; // can also add to x and/or z
             mainCamera.transform.position = pp;
         }
     }
 
+    public void StartShaksing() {
+        InvokeRepeating("CameraShake", 0, .01f);
+        Invoke("StopShaking", 0.7f);
+    }
+
     void StopShaking()
     {
         CancelInvoke("CameraShake");
-        mainCamera.transform.position = originalCameraPosition;
+        mainCamera.transform.position = new Vector3 (GameObject.Find("Player").transform.position.x, GameObject.Find("Player").transform.position.y, GameObject.Find("Player").transform.position.z);
     }
 
 }

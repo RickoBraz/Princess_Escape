@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         hudUpdate();
-        if (Input.GetKeyUp(disparo) && balas > 0)
+        if (Input.GetKeyUp(disparo) && balas > 0 && Time.timeScale == 1)
         {
             Instantiate(particulas, (gameObject.transform.position), Quaternion.identity);
             origem = new Vector2(player.transform.position.x, player.transform.position.y - 2f);

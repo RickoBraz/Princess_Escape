@@ -18,7 +18,6 @@ public class Plataforma : MonoBehaviour{
 
     void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.tag == "Bullet" && tipo == TPlataforma.Quebravel) {
-
             Destroy(this.gameObject);
             Gemas.instance.Pontuaçao();
 
