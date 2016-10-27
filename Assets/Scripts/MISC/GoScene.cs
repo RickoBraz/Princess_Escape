@@ -8,10 +8,12 @@ public class GoScene : MonoBehaviour {
     }
 
     public void Restart(){
+        PlayerPrefs.SetInt("highscore", 0);
         Application.LoadLevel(Application.loadedLevel);
     }
 
     public void Fechar() {
+        PlayerPrefs.SetInt("highscore", 0);
         Application.Quit();
     }
 }

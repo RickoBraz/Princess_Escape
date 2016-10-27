@@ -5,21 +5,16 @@ using UnityEngine.UI;
 public class Gemas : MonoBehaviour {
     public static Gemas instance;
 
-    [Header("numero atual coletado")]
-    public int NGemas = 0;
+    [Header("Numero atual coletado")]
+    public int NGemas;
     public static int highscore;
 
-    [Header("local de exibição")]
+    [Header("Local de exibição")]
     public Text texto;
-
-
-    public void SaveScore() {
-        PlayerPrefs.SetInt("highscore", NGemas);
-    }
 
     void Start () {
         if (instance == null) instance = this;
-        NGemas = highscore;
+        NGemas = PlayerPrefs.GetInt("highscore");
     }
 
     public void Pontuaçao(){
@@ -28,5 +23,9 @@ public class Gemas : MonoBehaviour {
         texto.text = (Mathf.RoundToInt(NGemas)).ToString() + " gold";
     }
 
- 
+    public void SaveHigh()
+    {
+        PlayerPrefs.SetInt("highscore", NGemas);
+    }
+
 }

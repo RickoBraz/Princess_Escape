@@ -26,7 +26,7 @@ public class collPlayer : MonoBehaviour
         if (other.gameObject.tag == "Plataforma")  Bullet.instance.Recarregar();
         if (other.gameObject.tag == "end")
         {
-            GetComponent<Gemas>().SaveScore();
+            GetComponent<Gemas>().SaveHigh();
             Application.LoadLevel(scene);
         }
         if (other.gameObject.tag == "Respawn") afectLife();
@@ -43,7 +43,7 @@ public class collPlayer : MonoBehaviour
 
     public void afectLife() {
         if (life < 1) {
-            PlayerPrefs.SetInt("highscore", 0);
+            GetComponent<Gemas>().SaveHigh();
             gameover.SetActive(true);
             Time.timeScale = 0f;
 
