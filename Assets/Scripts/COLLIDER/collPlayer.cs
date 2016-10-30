@@ -29,7 +29,12 @@ public class collPlayer : MonoBehaviour
             GetComponent<Gemas>().SaveHigh();
             Application.LoadLevel(scene);
         }
-        if (other.gameObject.tag == "Respawn") afectLife();
+        if (other.gameObject.tag == "Respawn")
+        {
+            Movimento.instance.RecuoBala();
+            FadeRed.instance.InvokeRed();
+            afectLife();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other) {

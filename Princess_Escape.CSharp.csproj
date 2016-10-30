@@ -71,6 +71,11 @@
     <Compile Include="Assets\Scripts\COLLIDER\Plataforma.cs" />
     <Compile Include="Assets\Scripts\COLLIDER\Spikes.cs" />
     <Compile Include="Assets\Scripts\COLLIDER\collPlayer.cs" />
+    <Compile Include="Assets\Scripts\FADES\FadeBlack.cs" />
+    <Compile Include="Assets\Scripts\FADES\FadeIn.cs" />
+    <Compile Include="Assets\Scripts\FADES\FadeOut.cs" />
+    <Compile Include="Assets\Scripts\FADES\FadeRed.cs" />
+    <Compile Include="Assets\Scripts\FADES\SplashImage.cs" />
     <Compile Include="Assets\Scripts\MISC\GoScene.cs" />
     <Compile Include="Assets\Scripts\MISC\HighScoreManager.cs" />
     <Compile Include="Assets\Scripts\MISC\MenuController.cs" />
@@ -88,6 +93,9 @@
     <Compile Include="Assets\Scripts\MOVIMENTAÇAO\mirrorSprite.cs" />
     <Compile Include="Assets\Scripts\POWER UPS\RandomPrincess.cs" />
     <Compile Include="Assets\Scripts\POWER UPS\RandomSprite.cs" />
+    <Compile Include="Assets\Scripts\POWER UPS\goDestroying.cs" />
+    <Compile Include="Assets\Scripts\POWER UPS\goFaster.cs" />
+    <Compile Include="Assets\Scripts\POWER UPS\goSlower.cs" />
     <Compile Include="Assets\Scripts\pixelPerfect.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

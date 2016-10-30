@@ -8,6 +8,8 @@ public class RandomPrincess : MonoBehaviour {
     [SerializeField]private int princess = 0;
     private int lastprincess = -1;
     public GameObject balaosfx;
+    private int qpower;
+    public GameObject slowtime, fastime;
 
     public void Start ()
     {
@@ -40,6 +42,9 @@ public class RandomPrincess : MonoBehaviour {
             Instantiate(balaosfx, (gameObject.transform.position), Quaternion.identity);
             animator.Play("New State", -1, float.NegativeInfinity);
             Start();
+            qpower = Random.Range(0, 6);
+            if (qpower == 4) Instantiate(slowtime, (gameObject.transform.position), Quaternion.identity);
+            if (qpower == 1) Instantiate(fastime, (gameObject.transform.position), Quaternion.identity);
 
             Destroy(other.gameObject);
             collPlayer.instance.Mlife();
