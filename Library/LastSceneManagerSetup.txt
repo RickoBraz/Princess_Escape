@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/3 LEVELS/LEVEL 02.unity
+- path: Assets/Scenes/1 VINHETAS/01-B SOBRE.unity
   isLoaded: 1
   isActive: 1

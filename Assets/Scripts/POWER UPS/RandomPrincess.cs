@@ -9,7 +9,7 @@ public class RandomPrincess : MonoBehaviour {
     private int lastprincess = -1;
     public GameObject balaosfx;
     private int qpower;
-    public GameObject slowtime, fastime;
+    public GameObject slowtime, fastime, newparticle;
 
     public void Start ()
     {
@@ -43,9 +43,9 @@ public class RandomPrincess : MonoBehaviour {
             animator.Play("New State", -1, float.NegativeInfinity);
             Start();
             qpower = Random.Range(0, 6);
-            if (qpower == 4) Instantiate(slowtime, (gameObject.transform.position), Quaternion.identity);
-            if (qpower == 1) Instantiate(fastime, (gameObject.transform.position), Quaternion.identity);
-
+            //if (qpower == 4) Instantiate(slowtime, (gameObject.transform.position), Quaternion.identity);
+            //if (qpower == 1) Instantiate(fastime, (gameObject.transform.position), Quaternion.identity);
+            Instantiate(newparticle, (gameObject.transform.position), Quaternion.identity); 
             Destroy(other.gameObject);
             collPlayer.instance.Mlife();
         }

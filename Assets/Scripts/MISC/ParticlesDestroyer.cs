@@ -3,10 +3,12 @@ using System.Collections;
 
 public class ParticlesDestroyer : MonoBehaviour {
 
+    public float time = 1f;
+
 
     void Start()
     {
-        Invoke("destroyBullet", 1f);
+        Invoke("destroyBullet", time);
     }
 
     void destroyBullet()
